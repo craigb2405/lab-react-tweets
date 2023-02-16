@@ -35,7 +35,7 @@ const tweetsArray = [
 ];
 
 function App() {
-  console.log(tweetsArray)
+
 
     return (
     <div className="App">
