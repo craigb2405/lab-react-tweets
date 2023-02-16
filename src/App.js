@@ -35,11 +35,17 @@ const tweetsArray = [
 ];
 
 function App() {
-  return (
+  console.log(tweetsArray)
+
+    return (
     <div className="App">
-      <Tweet />
+      <Tweet tweet={ tweetsArray[0] }/>
+      
+     
     </div>
+
   );
+
 }
 
 export default App;
