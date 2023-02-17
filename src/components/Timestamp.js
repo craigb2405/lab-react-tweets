@@ -1,7 +1,6 @@
 function Timestamp(props) {
-console.log(props)
     return (
-        <span className="timestamp">{props.time.timestamp}</span>
+        <span className="timestamp">{props.time}</span>
     )
 }
 
